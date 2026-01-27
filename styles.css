@@ -178,6 +178,12 @@ textarea:focus {
     animation: float 3s ease-in-out infinite;
 }
 
+.fabric-logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 @keyframes float {
     0%, 100% {
         transform: translateY(0px);
@@ -254,6 +260,12 @@ textarea:focus {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+.lego-figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .schedule-content {
