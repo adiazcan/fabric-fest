@@ -66,28 +66,30 @@ For additional protection, you can set up a GitHub Environment:
 The GitHub Actions workflow (`.github/workflows/azure-static-web-apps-deploy.yml`) will:
 
 1. **Trigger on**:
-   - Push to `main` branch → Deploy to production
-   - Pull requests → Create staging environment
-   - PR closed → Clean up staging environment
+   - Manual dispatch only (via GitHub Actions UI)
+   - No automatic deployments
 
 2. **Deployment Process**:
    - Check out the repository code
-   - Deploy to Azure Static Web Apps
+   - Deploy to Azure Static Web Apps Production environment
    - Set the Production environment URL
 
 3. **Features**:
-   - ✅ Automatic deployments on merge to main
-   - ✅ PR preview environments
+   - ✅ Manual deployment control
+   - ✅ Production environment only
    - ✅ Environment URL tracking
    - ✅ No build step needed (static files)
 
 ## Testing the Deployment
 
-1. Merge the PR with the workflow file to the `main` branch
-2. Go to **Actions** tab in GitHub
-3. You should see the "Azure Static Web Apps CI/CD" workflow running
-4. Once complete, visit the Azure Portal to get your site URL
-5. The URL will be available in:
+1. Go to **Actions** tab in GitHub
+2. Select "Azure Static Web Apps CI/CD" workflow
+3. Click **Run workflow** button
+4. Select the branch you want to deploy (typically `main`)
+5. Click **Run workflow** to start manual deployment
+6. You should see the workflow running
+7. Once complete, visit the Azure Portal to get your site URL
+8. The URL will be available in:
    - Azure Portal → Static Web App → Overview → URL
    - GitHub → Environments → Production
 
@@ -98,8 +100,12 @@ The GitHub Actions workflow (`.github/workflows/azure-static-web-apps-deploy.yml
 - Regenerate the token in Azure Portal if needed
 
 ### Deployment succeeds but site doesn't update
-- Check if the workflow is running on the correct branch
+- Verify you're running the workflow on the correct branch
 - Verify the `app_location` in the workflow file is set to "/"
+
+### Need to trigger a deployment
+- Go to Actions tab → Select workflow → Click "Run workflow"
+- Select the branch to deploy and confirm
 
 ### Need to update the deployment configuration
 - Edit `.github/workflows/azure-static-web-apps-deploy.yml`
