@@ -5,28 +5,32 @@
     box-sizing: border-box;
 }
 
+/* Design Tokens (matching the banner) */
 :root {
-    --bg: #01575D;
-    --bg-dark: #090D0A;
-    --text: #E9EDED;
+    --bg-0: #01575D;
+    --bg-1: #0B666B;
+    --bg-2: #0E7075;
+    --text: #EAF3F3;
+    --muted: #BFD7D8;
+    --dark: #0A0F10;
+    --card: #0B0F10;
     --accent: #1B9988;
-    --muted: #5E9B99;
-    --accent2: #6AA7DB;
-    --shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.3);
-    --heading-spacing: 2px;
+    --accent-hi: #2CC7B5;
+    --shadow: 0 18px 45px rgba(0,0,0,.35);
+    --radius: 14px;
+    --radius-lg: 22px;
 }
 
 body {
     font-family: "Segoe UI", Inter, system-ui, Arial, sans-serif;
     line-height: 1.6;
     color: var(--text);
-    background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg) 50%, var(--muted) 100%);
-    background-attachment: fixed;
+    background: var(--bg-0);
     min-height: 100vh;
     position: relative;
 }
 
+/* Texture/grain effect for poster feel */
 body::before {
     content: '';
     position: fixed;
@@ -35,43 +39,16 @@ body::before {
     width: 100%;
     height: 100%;
     background-image: 
-        radial-gradient(circle at 20% 50%, rgba(27, 153, 136, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(106, 167, 219, 0.1) 0%, transparent 50%);
+        radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.02) 0%, transparent 50%),
+        radial-gradient(circle at 40% 80%, rgba(0, 0, 0, 0.05) 0%, transparent 40%);
     pointer-events: none;
-    z-index: 0;
+    z-index: 10;
+    opacity: 0.08;
 }
 
 body > * {
     position: relative;
-    z-index: 1;
-}
-
-/* Accessibility - Focus Styles */
-a:focus,
-button:focus,
-input:focus,
-select:focus,
-textarea:focus {
-    outline: 2px solid var(--accent2);
-    outline-offset: 2px;
-}
-
-/* Skip to main content for screen readers */
-.skip-to-main {
-    position: absolute;
-    left: -9999px;
-    z-index: 999;
-}
-
-.skip-to-main:focus {
-    left: 50%;
-    transform: translateX(-50%);
-    top: 10px;
-    background: var(--accent);
-    color: var(--text);
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
 }
 
 .container {
@@ -79,13 +56,14 @@ textarea:focus {
     margin: 0 auto;
     padding: 0 20px;
 }
-}
 
 /* Top Header with Logos */
-.top-header {
-    background-color: var(--bg);
-    padding: 15px 0;
-    box-shadow: var(--shadow);
+.topbar {
+    background-color: var(--bg-0);
+    padding: 12px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 100;
 }
 
 .logo-container {
@@ -100,72 +78,63 @@ textarea:focus {
     fill: var(--text);
 }
 
-/* Hero Section */
+/* Hero Section - Top band with gradient */
 .hero {
-    background: linear-gradient(135deg, var(--bg) 0%, var(--muted) 100%);
-    padding: 80px 0;
+    background: linear-gradient(90deg, var(--bg-0) 0%, var(--bg-1) 50%, var(--bg-2) 100%);
+    padding: 60px 0;
     position: relative;
     overflow: hidden;
-}
-
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background: radial-gradient(circle at top right, rgba(27, 153, 136, 0.3) 0%, transparent 70%);
-    pointer-events: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 .hero-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 60px;
     align-items: center;
     position: relative;
-    z-index: 1;
 }
 
 .hero-text h1 {
-    font-size: 5rem;
-    font-weight: 700;
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 900;
     color: var(--text);
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 15px;
+    letter-spacing: -2px;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+    line-height: 1;
 }
 
 .event-date {
-    font-size: 2rem;
+    font-size: clamp(1.3rem, 3vw, 2rem);
     color: var(--text);
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     font-weight: 300;
+    letter-spacing: 0.5px;
 }
 
-.cta-button {
+.cta {
     display: inline-block;
-    padding: 18px 45px;
+    padding: 18px 50px;
     background-color: var(--accent);
     color: var(--text);
     border: none;
-    border-radius: 12px;
+    border-radius: var(--radius);
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35), 0 0 20px rgba(27, 153, 136, 0.3);
     text-decoration: none;
 }
 
-.cta-button:hover,
-.cta-button:focus {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    background-color: var(--accent2);
-    color: var(--text);
-    outline: 2px solid var(--text);
-    outline-offset: 2px;
+.cta:hover,
+.cta:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45), 0 0 30px rgba(44, 199, 181, 0.5);
+    background-color: var(--accent-hi);
+    outline: 2px solid var(--accent-hi);
+    outline-offset: 3px;
 }
 
 .hero-graphic {
@@ -174,282 +143,320 @@ textarea:focus {
     align-items: center;
 }
 
-.fabric-logo {
-    animation: float 3s ease-in-out infinite;
+/* Diamond/Gem on the right */
+.diamond {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    filter: drop-shadow(0 12px 30px rgba(0, 0, 0, 0.4));
 }
 
-.fabric-logo img {
+.diamond img {
     max-width: 100%;
     height: auto;
     display: block;
+    filter: drop-shadow(0 0 20px rgba(44, 199, 181, 0.25));
 }
 
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-}
-
-/* Respect reduced motion preferences */
-@media (prefers-reduced-motion: reduce) {
-    .fabric-logo {
-        animation: none;
-    }
-}
-
-/* Description Section */
-.description-section {
-    background: linear-gradient(180deg, var(--bg) 0%, var(--muted) 100%);
-    padding: 60px 0;
+/* "La cita imprescindible" Band */
+.band {
+    padding: 50px 0;
     text-align: center;
+    position: relative;
 }
 
-.section-title {
-    font-size: 2rem;
+.band--dark {
+    background: var(--bg-1);
+    box-shadow: inset 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.band--light {
+    background: var(--bg-2);
+}
+
+.band__title {
+    font-size: clamp(1.5rem, 3.5vw, 2.2rem);
     color: var(--text);
-    margin-bottom: 30px;
-    font-weight: 600;
-}
-
-.description-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.description-intro {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--text);
-    margin-bottom: 20px;
-    line-height: 1.8;
-}
-
-.description-text {
-    font-size: 1.1rem;
-    color: var(--text);
-    line-height: 1.8;
-}
-
-/* Schedule Section */
-.schedule-section {
-    background: linear-gradient(180deg, var(--muted) 0%, var(--bg) 100%);
-    padding: 60px 0;
-}
-
-.schedule-section h2 {
-    font-size: 2.5rem;
-    color: var(--text);
-    margin-bottom: 40px;
-    text-align: center;
+    margin-bottom: 25px;
     font-weight: 700;
-    letter-spacing: var(--heading-spacing);
+    line-height: 1.3;
 }
 
-.schedule-wrapper {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    gap: 40px;
-    max-width: 1000px;
+.band__content {
+    max-width: 900px;
     margin: 0 auto;
 }
 
-.lego-figure {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.lego-figure img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.schedule-content {
+.band__intro {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-weight: 600;
     color: var(--text);
-}
-
-.schedule-time {
-    font-size: 1.1rem;
-    margin: 20px 0 10px 0;
-    color: var(--text);
-}
-
-.schedule-block {
-    margin: 15px 0;
-    padding-left: 10px;
-}
-
-.schedule-block strong {
-    color: var(--text);
-    font-size: 1.1rem;
-}
-
-.schedule-block ul {
-    list-style: none;
-    margin-top: 10px;
-    padding-left: 15px;
-}
-
-.schedule-block ul li {
-    margin: 8px 0;
-    color: var(--text);
-    font-size: 1rem;
+    margin-bottom: 18px;
     line-height: 1.6;
 }
 
-/* Prize Section */
-.prize-section {
-    background-color: var(--muted);
-    padding: 40px 0;
-    text-align: center;
+.band__text {
+    font-size: clamp(0.95rem, 1.8vw, 1.05rem);
+    color: var(--muted);
+    line-height: 1.7;
 }
 
-.prize-text {
-    font-size: 1.5rem;
+/* Agenda Section - Icon on left, schedule on right */
+.agenda {
+    background: var(--bg-0);
+    padding: 50px 0;
+    box-shadow: inset 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.agenda__title {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
     color: var(--text);
-    max-width: 800px;
-    margin: 0 auto;
+    margin-bottom: 45px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
-.prize-text strong {
+.agenda__wrapper {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.agenda__icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: sticky;
+    top: 20px;
+}
+
+.agenda__icon img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.3));
+}
+
+.agenda__content {
+    color: var(--text);
+}
+
+.agenda__time {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    margin: 22px 0 12px 0;
+    color: var(--text);
     font-weight: 700;
 }
 
-/* Location Section */
-.location-section {
-    background: linear-gradient(180deg, var(--bg) 0%, var(--bg-dark) 100%);
+.agenda__block {
+    margin: 18px 0;
+    padding-left: 8px;
+}
+
+.agenda__block strong {
+    color: var(--text);
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    font-weight: 700;
+}
+
+.agenda__block ul {
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.agenda__block ul li {
+    margin: 10px 0;
+    color: var(--text);
+    font-size: clamp(0.9rem, 1.8vw, 1rem);
+    line-height: 1.6;
+    position: relative;
+    padding-left: 12px;
+}
+
+.agenda__block ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+/* "Surface and surprises" Band */
+.surface-band {
+    background: var(--bg-2);
+    padding: 45px 0;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.surface-band__text {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    color: var(--text);
+    max-width: 900px;
+    margin: 0 auto;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.surface-band__text strong {
+    font-weight: 700;
+}
+
+/* Location Card - Black card with image */
+.location {
+    background: var(--bg-0);
     padding: 60px 0;
 }
 
-.location-content {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+.location-card {
     max-width: 900px;
     margin: 0 auto;
-    background-color: var(--bg-dark);
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    background-color: var(--card);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    display: flex;
+    overflow: hidden;
+    gap: 0;
 }
 
-.location-image {
+.location-card__image {
     flex-shrink: 0;
+    width: 320px;
+    overflow: hidden;
 }
 
-.location-details {
+.location-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.location-card__details {
+    padding: 35px 40px;
     color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.location-details h3 {
-    font-size: 1.5rem;
+.location-card__title {
+    font-size: clamp(1.2rem, 2.2vw, 1.6rem);
     margin-bottom: 15px;
-    font-weight: 600;
+    font-weight: 700;
+    line-height: 1.3;
 }
 
-.location-details p {
-    font-size: 1.1rem;
+.location-card__details p {
+    font-size: clamp(0.95rem, 1.8vw, 1.1rem);
     color: var(--text);
     margin: 5px 0;
+    line-height: 1.5;
 }
 
-/* Final CTA */
-.final-cta {
-    background-color: var(--bg-dark);
+/* Final Urgency Line */
+.footer-note {
+    background-color: var(--bg-1);
     padding: 40px 0;
     text-align: center;
 }
 
-.final-message {
-    font-size: 1.5rem;
+.footer-note__text {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
     color: var(--text);
-    font-weight: 700;
+    font-weight: 600;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: var(--bg-dark);
-    color: var(--text);
+    background-color: var(--dark);
+    color: var(--muted);
     text-align: center;
-    padding: 30px 0;
+    padding: 25px 0;
+    font-size: 0.9rem;
 }
 
 footer p {
     margin: 5px 0;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
-/* Responsive Design */
+/* Responsive Design - Mobile First */
 @media (max-width: 768px) {
     .logo-container {
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         text-align: center;
     }
 
     .hero-content {
         grid-template-columns: 1fr;
         text-align: center;
-    }
-
-    .hero-text h1 {
-        font-size: 3rem;
-    }
-
-    .event-date {
-        font-size: 1.5rem;
+        gap: 30px;
     }
 
     .hero-graphic {
         order: -1;
     }
 
-    .fabric-logo svg {
+    .diamond {
         width: 200px;
         height: 200px;
     }
 
-    .schedule-wrapper {
+    .agenda__wrapper {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 30px;
     }
 
-    .lego-figure {
+    .agenda__icon {
         order: 1;
+        position: relative;
+        top: 0;
     }
 
-    .location-content {
+    .location-card {
         flex-direction: column;
-        text-align: center;
     }
 
-    .section-title {
-        font-size: 1.5rem;
+    .location-card__image {
+        width: 100%;
+        height: 220px;
     }
 }
 
 @media (max-width: 480px) {
-    .hero-text h1 {
-        font-size: 2.5rem;
+    .hero {
+        padding: 40px 0;
     }
 
-    .event-date {
-        font-size: 1.2rem;
+    .cta {
+        padding: 16px 40px;
+        font-size: 1.15rem;
     }
 
-    .cta-button {
-        padding: 15px 35px;
-        font-size: 1.1rem;
+    .diamond {
+        width: 160px;
+        height: 160px;
     }
+}
 
-    .prize-text,
-    .final-message {
-        font-size: 1.2rem;
-    }
+/* Accessibility - Focus Styles */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid var(--accent-hi);
+    outline-offset: 3px;
 }
 
 /* Notification Styles */
@@ -458,10 +465,10 @@ footer p {
     top: 20px;
     right: 20px;
     background-color: var(--accent);
-    color: var(--bg-dark);
+    color: var(--dark);
     padding: 20px 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
     transform: translateX(400px);
     opacity: 0;
     transition: all 0.3s ease;
