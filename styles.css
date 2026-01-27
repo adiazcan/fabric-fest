@@ -14,6 +14,7 @@
     --accent2: #6AA7DB;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.3);
+    --heading-spacing: 2px;
 }
 
 body {
@@ -238,7 +239,7 @@ textarea:focus {
     margin-bottom: 40px;
     text-align: center;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: var(--heading-spacing);
 }
 
 .schedule-wrapper {
@@ -304,7 +305,6 @@ textarea:focus {
 
 .prize-text strong {
     font-weight: 700;
-    color: var(--text);
 }
 
 /* Location Section */
