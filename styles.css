@@ -6,23 +6,23 @@
 }
 
 :root {
-    --primary-color: #0078d4;
-    --secondary-color: #00188f;
-    --accent-color: #50e6ff;
-    --text-dark: #323130;
-    --text-light: #605e5c;
-    --bg-light: #faf9f8;
-    --bg-white: #ffffff;
-    --border-color: #edebe9;
-    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.15);
+    --primary-teal: #0d7377;
+    --secondary-teal: #14a085;
+    --accent-green: #00d4aa;
+    --dark-teal: #095c5f;
+    --text-white: #ffffff;
+    --text-light: #e0f7f7;
+    --bg-dark: #0a5355;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: var(--text-dark);
-    background-color: var(--bg-light);
+    color: var(--text-white);
+    background: linear-gradient(135deg, var(--dark-teal) 0%, var(--primary-teal) 50%, var(--secondary-teal) 100%);
+    min-height: 100vh;
 }
 
 .container {
@@ -31,288 +31,350 @@ body {
     padding: 0 20px;
 }
 
-/* Header Styles */
-header {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    color: var(--bg-white);
-    padding: 60px 0;
-    text-align: center;
+/* Top Header with Logos */
+.top-header {
+    background-color: var(--primary-teal);
+    padding: 15px 0;
     box-shadow: var(--shadow);
 }
 
-.header-content h1 {
-    font-size: 3.5rem;
-    margin-bottom: 10px;
-    font-weight: 700;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.tagline {
-    font-size: 1.3rem;
-    opacity: 0.95;
-    font-weight: 300;
-}
-
-/* Section Styles */
-.section {
-    padding: 60px 0;
-}
-
-.section h2 {
-    font-size: 2.5rem;
-    color: var(--secondary-color);
-    margin-bottom: 30px;
-    text-align: center;
-    font-weight: 600;
-}
-
-/* About Section */
-#about {
-    background-color: var(--bg-white);
-}
-
-.about-content {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.about-content > p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    margin-bottom: 40px;
-    text-align: center;
-    color: var(--text-light);
-}
-
-.event-details {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    margin-bottom: 50px;
-}
-
-.detail-item {
+.logo-container {
     display: flex;
-    align-items: flex-start;
-    gap: 15px;
-    padding: 25px;
-    background-color: var(--bg-light);
-    border-radius: 12px;
-    border: 2px solid var(--border-color);
-    transition: all 0.3s ease;
-}
-
-.detail-item:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-hover);
-    border-color: var(--primary-color);
-}
-
-.detail-item .icon {
-    font-size: 2.5rem;
-    flex-shrink: 0;
-}
-
-.detail-item h3 {
-    font-size: 1.2rem;
-    color: var(--secondary-color);
-    margin-bottom: 5px;
-}
-
-.detail-item p {
-    color: var(--text-light);
-    font-size: 1rem;
-}
-
-.highlights {
-    background: linear-gradient(135deg, var(--bg-light) 0%, var(--bg-white) 100%);
-    padding: 30px;
-    border-radius: 12px;
-    border-left: 4px solid var(--primary-color);
-}
-
-.highlights h3 {
-    font-size: 1.5rem;
-    color: var(--secondary-color);
-    margin-bottom: 20px;
-}
-
-.highlights ul {
-    list-style: none;
-}
-
-.highlights ul li {
-    padding: 12px 0;
-    padding-left: 30px;
-    position: relative;
-    font-size: 1.05rem;
-    color: var(--text-light);
-}
-
-.highlights ul li:before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: var(--primary-color);
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-/* Schedule Section */
-.schedule-section {
-    background-color: var(--bg-light);
-}
-
-.schedule-grid {
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.schedule-item {
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    gap: 20px;
-    padding: 25px;
-    background-color: var(--bg-white);
-    border-radius: 12px;
-    box-shadow: var(--shadow);
-    transition: all 0.3s ease;
-    border-left: 4px solid var(--primary-color);
-}
-
-.schedule-item:hover {
-    transform: translateX(5px);
-    box-shadow: var(--shadow-hover);
-}
-
-.schedule-item .time {
-    font-weight: 700;
-    color: var(--primary-color);
-    font-size: 1.1rem;
-    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.schedule-details h3 {
-    font-size: 1.3rem;
-    color: var(--secondary-color);
-    margin-bottom: 8px;
+.vvalley-logo svg,
+.microsoft-logo svg {
+    color: var(--text-white);
+    fill: var(--text-white);
 }
 
-.schedule-details p {
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, var(--dark-teal) 0%, var(--primary-teal) 100%);
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(20, 160, 133, 0.3) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--text-white);
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.event-date {
+    font-size: 2rem;
     color: var(--text-light);
-    font-size: 1rem;
-}
-
-/* CTA Section */
-.cta-section {
-    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
-    color: var(--bg-white);
-    text-align: center;
-}
-
-.cta-section h2 {
-    color: var(--bg-white);
-}
-
-.cta-description {
-    font-size: 1.3rem;
     margin-bottom: 30px;
-    opacity: 0.95;
+    font-weight: 300;
 }
 
 .cta-button {
     display: inline-block;
     padding: 18px 45px;
-    background-color: var(--bg-white);
-    color: var(--primary-color);
-    text-decoration: none;
-    border-radius: 50px;
-    font-size: 1.2rem;
+    background-color: var(--accent-green);
+    color: var(--dark-teal);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.3rem;
     font-weight: 600;
+    cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
 }
 
 .cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    background-color: var(--accent-color);
-    color: var(--secondary-color);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    background-color: var(--secondary-teal);
+    color: var(--text-white);
 }
 
-.cta-note {
-    margin-top: 20px;
-    font-size: 0.95rem;
-    opacity: 0.9;
+.hero-graphic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fabric-logo {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Description Section */
+.description-section {
+    background: linear-gradient(180deg, var(--primary-teal) 0%, var(--secondary-teal) 100%);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: var(--text-white);
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.description-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.description-intro {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-white);
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.description-text {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    line-height: 1.8;
+}
+
+/* Schedule Section */
+.schedule-section {
+    background: linear-gradient(180deg, var(--secondary-teal) 0%, var(--primary-teal) 100%);
+    padding: 60px 0;
+}
+
+.schedule-section h2 {
+    font-size: 2.5rem;
+    color: var(--text-white);
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.schedule-wrapper {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.lego-figure {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.schedule-content {
+    color: var(--text-white);
+}
+
+.schedule-time {
+    font-size: 1.1rem;
+    margin: 20px 0 10px 0;
+    color: var(--text-white);
+}
+
+.schedule-block {
+    margin: 15px 0;
+    padding-left: 10px;
+}
+
+.schedule-block strong {
+    color: var(--text-white);
+    font-size: 1.1rem;
+}
+
+.schedule-block ul {
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.schedule-block ul li {
+    margin: 8px 0;
+    color: var(--text-light);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Prize Section */
+.prize-section {
+    background-color: rgba(13, 115, 119, 0.8);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.prize-text {
+    font-size: 1.5rem;
+    color: var(--text-white);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.prize-text strong {
+    color: var(--accent-green);
+}
+
+/* Location Section */
+.location-section {
+    background: linear-gradient(180deg, var(--primary-teal) 0%, var(--dark-teal) 100%);
+    padding: 60px 0;
+}
+
+.location-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.location-image {
+    flex-shrink: 0;
+}
+
+.location-details {
+    color: var(--text-white);
+}
+
+.location-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.location-details p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin: 5px 0;
+}
+
+/* Final CTA */
+.final-cta {
+    background-color: var(--secondary-teal);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.final-message {
+    font-size: 1.5rem;
+    color: var(--text-white);
+    font-weight: 600;
 }
 
 /* Footer */
 footer {
-    background-color: var(--text-dark);
-    color: var(--bg-white);
+    background-color: var(--dark-teal);
+    color: var(--text-light);
     text-align: center;
     padding: 30px 0;
-    margin-top: 0;
 }
 
 footer p {
     margin: 5px 0;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .header-content h1 {
+    .logo-container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+
+    .event-date {
+        font-size: 1.5rem;
+    }
+
+    .hero-graphic {
+        order: -1;
+    }
+
+    .fabric-logo svg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .schedule-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .lego-figure {
+        order: 1;
+    }
+
+    .location-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
         font-size: 2.5rem;
     }
 
-    .tagline {
-        font-size: 1.1rem;
-    }
-
-    .section h2 {
-        font-size: 2rem;
-    }
-
-    .event-details {
-        grid-template-columns: 1fr;
-    }
-
-    .schedule-item {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-
-    .schedule-item .time {
-        border-bottom: 2px solid var(--border-color);
-        padding-bottom: 10px;
+    .event-date {
+        font-size: 1.2rem;
     }
 
     .cta-button {
         padding: 15px 35px;
         font-size: 1.1rem;
     }
-}
 
-@media (max-width: 480px) {
-    .header-content h1 {
-        font-size: 2rem;
-    }
-
-    .section {
-        padding: 40px 0;
-    }
-
-    .detail-item {
-        padding: 20px;
-    }
-
-    .schedule-item {
-        padding: 20px;
+    .prize-text,
+    .final-message {
+        font-size: 1.2rem;
     }
 }
 
@@ -321,8 +383,8 @@ footer p {
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: var(--primary-color);
-    color: var(--bg-white);
+    background-color: var(--accent-green);
+    color: var(--dark-teal);
     padding: 20px 30px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -332,6 +394,7 @@ footer p {
     z-index: 1000;
     max-width: 400px;
     font-size: 1rem;
+    font-weight: 600;
 }
 
 .notification.show {

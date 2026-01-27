@@ -8,156 +8,197 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-    <header>
+    <!-- Top Header with Logos -->
+    <div class="top-header">
         <div class="container">
-            <div class="header-content">
-                <h1>🎪 Fabric Fest</h1>
-                <p class="tagline">Evento V-Valley | Conferencia Microsoft Fabric</p>
+            <div class="logo-container">
+                <div class="vvalley-logo">
+                    <svg width="120" height="40" viewBox="0 0 200 60">
+                        <polygon points="10,10 30,50 50,10" fill="currentColor" opacity="0.8"/>
+                        <polygon points="40,10 60,50 80,10" fill="currentColor" opacity="0.6"/>
+                        <text x="90" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="currentColor">V Valley</text>
+                        <text x="90" y="50" font-family="Arial, sans-serif" font-size="10" fill="currentColor" opacity="0.8">enhancing your business</text>
+                    </svg>
+                </div>
+                <div class="microsoft-logo">
+                    <svg width="120" height="40" viewBox="0 0 120 40">
+                        <rect x="0" y="0" width="18" height="18" fill="#f25022"/>
+                        <rect x="20" y="0" width="18" height="18" fill="#7fba00"/>
+                        <rect x="0" y="20" width="18" height="18" fill="#00a4ef"/>
+                        <rect x="20" y="20" width="18" height="18" fill="#ffb900"/>
+                        <text x="45" y="27" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="currentColor">Microsoft</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Fabric Fest</h1>
+                    <p class="event-date">12 de febrero | 9h30</p>
+                    <button class="cta-button" id="registerButton">Inscríbete ya</button>
+                </div>
+                <div class="hero-graphic">
+                    <div class="fabric-logo">
+                        <svg width="300" height="300" viewBox="0 0 300 300">
+                            <!-- Fabric F Logo -->
+                            <defs>
+                                <linearGradient id="fabricGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#00a080;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <path d="M 150 50 L 250 100 L 250 150 L 150 100 Z" fill="url(#fabricGrad)" opacity="0.9"/>
+                            <path d="M 150 100 L 250 150 L 250 200 L 150 150 Z" fill="url(#fabricGrad)" opacity="0.7"/>
+                            <path d="M 50 100 L 150 50 L 150 100 L 50 150 Z" fill="url(#fabricGrad)" opacity="0.8"/>
+                            <path d="M 50 150 L 150 100 L 150 150 L 50 200 Z" fill="url(#fabricGrad)" opacity="0.6"/>
+                        </svg>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section id="about" class="section">
+        <!-- Event Description Section -->
+        <section id="about" class="section description-section">
             <div class="container">
-                <h2>Acerca del Evento</h2>
-                <div class="about-content">
-                    <p>Bienvenidos a <strong>Fabric Fest</strong>, un evento exclusivo de V-Valley dedicado a explorar el poder y las capacidades de Microsoft Fabric. Únete a nosotros para un emocionante día de aprendizaje, networking y descubre cómo Microsoft Fabric está transformando el mundo de la analítica de datos y la inteligencia empresarial.</p>
-                    <div class="event-details">
-                        <div class="detail-item">
-                            <span class="icon">📅</span>
-                            <div>
-                                <h3>Fecha</h3>
-                                <p>Próximamente</p>
-                            </div>
-                        </div>
-                        <div class="detail-item">
-                            <span class="icon">📍</span>
-                            <div>
-                                <h3>Ubicación</h3>
-                                <p>V-Valley Technology Hub</p>
-                            </div>
-                        </div>
-                        <div class="detail-item">
-                            <span class="icon">⏰</span>
-                            <div>
-                                <h3>Duración</h3>
-                                <p>Evento de Día Completo</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="highlights">
-                        <h3>Qué Esperar</h3>
-                        <ul>
-                            <li>Presentaciones de expertos sobre arquitectura y mejores prácticas de Microsoft Fabric</li>
-                            <li>Talleres prácticos y demostraciones en vivo</li>
-                            <li>Casos de uso del mundo real e historias de éxito</li>
-                            <li>Oportunidades de networking con profesionales de la industria</li>
-                            <li>Sesiones de preguntas y respuestas con especialistas de Microsoft Fabric</li>
-                        </ul>
-                    </div>
+                <h2 class="section-title">La cita imprescindible para los Data Heroes</h2>
+                <div class="description-content">
+                    <p class="description-intro">Si trabajas con datos, este es tu momento. Sumérgete en el universo Microsoft Fabric junto a expertos de Microsoft, V-Valley y la comunidad de MVPs.</p>
+                    <p class="description-text">Una oportunidad única para ampliar conocimientos, resolver dudas y encontrar inspiración para transformar la forma en que trabajas con tus datos.</p>
                 </div>
             </div>
         </section>
 
+        <!-- Schedule Section with LEGO Figure -->
         <section id="schedule" class="section schedule-section">
             <div class="container">
-                <h2>Agenda del Evento</h2>
-                <div class="schedule-grid">
-                    <div class="schedule-item">
-                        <div class="time">10:00</div>
-                        <div class="schedule-details">
-                            <h3>1er Bloque</h3>
-                        </div>
+                <h2>AGENDA</h2>
+                <div class="schedule-wrapper">
+                    <div class="lego-figure">
+                        <svg width="200" height="300" viewBox="0 0 200 300">
+                            <!-- LEGO minifigure -->
+                            <defs>
+                                <linearGradient id="legoGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#00a080;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <!-- Head -->
+                            <circle cx="100" cy="60" r="30" fill="#2c2c2c"/>
+                            <circle cx="90" cy="55" r="5" fill="#ffffff"/>
+                            <circle cx="110" cy="55" r="5" fill="#ffffff"/>
+                            <circle cx="90" cy="55" r="3" fill="#00ff00"/>
+                            <circle cx="110" cy="55" r="3" fill="#00ff00"/>
+                            <path d="M 85 70 Q 100 75 115 70" stroke="#ffffff" stroke-width="2" fill="none"/>
+                            <!-- Body -->
+                            <rect x="70" y="90" width="60" height="70" rx="5" fill="#2c2c2c"/>
+                            <!-- Cape -->
+                            <path d="M 70 100 Q 40 150 50 220 L 70 200 L 70 100" fill="url(#legoGreen)" opacity="0.8"/>
+                            <path d="M 130 100 Q 160 150 150 220 L 130 200 L 130 100" fill="url(#legoGreen)" opacity="0.8"/>
+                            <!-- Arms -->
+                            <rect x="50" y="100" width="15" height="40" rx="7" fill="#2c2c2c"/>
+                            <rect x="135" y="100" width="15" height="40" rx="7" fill="#2c2c2c"/>
+                            <!-- Hands -->
+                            <circle cx="57" cy="145" r="8" fill="#ffd700"/>
+                            <circle cx="143" cy="145" r="8" fill="#ffd700"/>
+                            <!-- Legs -->
+                            <rect x="80" y="160" width="15" height="50" rx="5" fill="#2c2c2c"/>
+                            <rect x="105" y="160" width="15" height="50" rx="5" fill="#2c2c2c"/>
+                            <!-- Boots -->
+                            <rect x="77" y="205" width="20" height="15" rx="3" fill="#1a1a1a"/>
+                            <rect x="103" y="205" width="20" height="15" rx="3" fill="#1a1a1a"/>
+                        </svg>
                     </div>
-                    <div class="schedule-item">
-                        <div class="time"></div>
-                        <div class="schedule-details">
-                            <h3>Bienvenida</h3>
+                    <div class="schedule-content">
+                        <div class="schedule-time">
+                            <strong>09h30 • Recepción</strong>
                         </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time"></div>
-                        <div class="schedule-details">
-                            <h3>Direct Lake en Fabric: lo que necesitas saber antes de adoptarlo</h3>
-                            <p>Diana Aguilera y Nelson Lopez</p>
+                        <div class="schedule-block">
+                            <strong>10h00 • 1er bloque:</strong>
+                            <ul>
+                                <li>• Bienvenida</li>
+                                <li>• Direct Lake en Fabric: lo que necesitas saber antes de adoptarlo con <strong>Diana Aguilera y Nelson Lopez</strong></li>
+                                <li>• Monitorizando Fabric con sus herramientas nativas con <strong>Ricardo Rincón</strong></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time"></div>
-                        <div class="schedule-details">
-                            <h3>Monitorizando Fabric con sus herramientas nativas</h3>
-                            <p>Ricardo Rincón</p>
+                        <div class="schedule-time">
+                            <strong>11h45 • Descanso</strong>
                         </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">11:45</div>
-                        <div class="schedule-details">
-                            <h3>Descanso</h3>
+                        <div class="schedule-block">
+                            <strong>12h00 • 2º bloque</strong>
+                            <ul>
+                                <li>• Cómo Desarrollar modelos de ML en Fabric usando técnicas LowCode con <strong>Roberto Navarro</strong></li>
+                                <li>• Fabric + MCP: La Nueva Arquitectura Inteligente para Modelos Semánticos y Reports con <strong>Miguel Egea</strong></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">12:00</div>
-                        <div class="schedule-details">
-                            <h3>2º Bloque</h3>
+                        <div class="schedule-time">
+                            <strong>13h30 • Comida</strong>
                         </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time"></div>
-                        <div class="schedule-details">
-                            <h3>Cómo Desarrollar modelos de ML en Fabric usando técnicas LowCode</h3>
-                            <p>Roberto Navarro</p>
+                        <div class="schedule-block">
+                            <strong>14h45 • 3er bloque</strong>
+                            <ul>
+                                <li>• ¿Quién se ha llevado mis CUs? Consumo y control en MS Fabric con <strong>Mar Lizana y Mónica Mesa</strong></li>
+                                <li>• Preguntar, entender, decidir: el nuevo diálogo con los datos usando IA con <strong>Alberto Díaz</strong></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time"></div>
-                        <div class="schedule-details">
-                            <h3>Fabric + MCP: La Nueva Arquitectura Inteligente para Modelos Semánticos y Reports</h3>
-                            <p>Miguel Egea</p>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">13:30</div>
-                        <div class="schedule-details">
-                            <h3>Comida</h3>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">14:45</div>
-                        <div class="schedule-details">
-                            <h3>3er Bloque</h3>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time"></div>
-                        <div class="schedule-details">
-                            <h3>¿Quién se ha llevado mis CUs? Consumo y control en MS Fabric</h3>
-                            <p>Mar Lizana y Mónica Mesa</p>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time"></div>
-                        <div class="schedule-details">
-                            <h3>Preguntar, entender, decidir: el nuevo diálogo con los datos usando IA</h3>
-                            <p>Alberto Díaz</p>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="time">16:30</div>
-                        <div class="schedule-details">
-                            <h3>Entrega Surface, sorpresas y cierre</h3>
+                        <div class="schedule-time">
+                            <strong>16h30 • Entrega Surface, sorpresas y cierre</strong>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="register" class="section cta-section">
+        <!-- Prize Section -->
+        <section class="prize-section">
             <div class="container">
-                <h2>Regístrate Ahora</h2>
-                <p class="cta-description">¡No te pierdas esta oportunidad de unirte a la comunidad de Microsoft Fabric y expandir tu experiencia en analítica de datos!</p>
-                <a href="#" class="cta-button" id="registerButton">Regístrate para Fabric Fest</a>
-                <p class="cta-note">¡Plazas limitadas. Regístrate pronto para asegurar tu lugar!</p>
+                <p class="prize-text">Y además, <strong>podrás ser el ganador de una Surface</strong> y habrá alguna que otra sorpresa...</p>
+            </div>
+        </section>
+
+        <!-- Location Section -->
+        <section class="location-section">
+            <div class="container">
+                <div class="location-content">
+                    <div class="location-image">
+                        <svg width="300" height="200" viewBox="0 0 300 200">
+                            <!-- Microsoft Building -->
+                            <rect x="0" y="0" width="300" height="200" fill="#87ceeb"/>
+                            <rect x="20" y="80" width="260" height="100" fill="#d3d3d3"/>
+                            <!-- Windows -->
+                            <rect x="30" y="90" width="15" height="20" fill="#4169e1"/>
+                            <rect x="50" y="90" width="15" height="20" fill="#4169e1"/>
+                            <rect x="70" y="90" width="15" height="20" fill="#4169e1"/>
+                            <rect x="90" y="90" width="15" height="20" fill="#4169e1"/>
+                            <rect x="110" y="90" width="15" height="20" fill="#4169e1"/>
+                            <rect x="30" y="120" width="15" height="20" fill="#4169e1"/>
+                            <rect x="50" y="120" width="15" height="20" fill="#4169e1"/>
+                            <rect x="70" y="120" width="15" height="20" fill="#4169e1"/>
+                            <rect x="90" y="120" width="15" height="20" fill="#4169e1"/>
+                            <rect x="110" y="120" width="15" height="20" fill="#4169e1"/>
+                            <!-- Microsoft Logo on building -->
+                            <text x="140" y="130" font-family="Segoe UI" font-size="16" font-weight="bold" fill="#0078d4">Microsoft</text>
+                        </svg>
+                    </div>
+                    <div class="location-details">
+                        <h3>Oficinas de Microsoft Madrid - La Finca</h3>
+                        <p>Pº Club Deportivo, 1, edificio 1.</p>
+                        <p>28223 Pozuelo de Alarcón, Madrid</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta">
+            <div class="container">
+                <p class="final-message">¡Las plazas son limitadas, reserva tu espacio cuanto antes!</p>
             </div>
         </section>
     </main>
