@@ -21,13 +21,63 @@ body {
     line-height: 1.6;
     color: var(--text);
     background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg) 50%, var(--muted) 100%);
+    background-attachment: fixed;
     min-height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(circle at 20% 50%, rgba(27, 153, 136, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(106, 167, 219, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+body > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Accessibility - Focus Styles */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid var(--accent2);
+    outline-offset: 2px;
+}
+
+/* Skip to main content for screen readers */
+.skip-to-main {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+}
+
+.skip-to-main:focus {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    background: var(--accent);
+    color: var(--text);
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
 }
 
 /* Top Header with Logos */
