@@ -134,6 +134,13 @@ body {
     }
 }
 
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    .fabric-logo {
+        animation: none;
+    }
+}
+
 /* Description Section */
 .description-section {
     background: linear-gradient(180deg, var(--primary-teal) 0%, var(--secondary-teal) 100%);
