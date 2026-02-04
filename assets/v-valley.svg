@@ -1,91 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
+<?xml version="1.0"?>
+<svg width="595.28" height="180" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" enable-background="new 0 0 595.28 841.89" version="1.1" xml:space="preserve">
+ <style type="text/css">.st0{fill:#FFFFFF;}
 	.st1{fill:#64CCC9;}
-	.st2{fill:#00B398;}
-</style>
-<g>
-	<g>
-		<path class="st0" d="M230.46,480.53c-1.36,1.57-3.59,2.31-5.61,2.31c-4.01,0-6.82-2.62-6.82-6.84c0-3.91,2.81-6.71,6.71-6.71
-			c3.96,0,6.97,2.36,6.48,7.5h-11.04c0.24,2.52,2.26,4.06,4.72,4.06c1.44,0,3.28-0.55,4.12-1.6l1.47,1.28H230.46z M229.15,475
-			c-0.08-2.49-1.81-3.78-4.35-3.78c-2.26,0-4.2,1.26-4.62,3.78H229.15z"/>
-		<path class="st0" d="M233.6,469.6h1.97l0.1,2.02c1.15-1.68,2.62-2.33,4.38-2.33c3.23,0,5.51,2.15,5.51,6.06v7.18h-2.18v-7.16
-			c0-2.6-1.26-4.06-3.75-4.06c-2.36,0-3.91,1.97-3.91,4.27v6.95h-2.12V469.6z"/>
-		<path class="st0" d="M250.77,464.2v7.53c1.15-1.7,2.6-2.41,4.27-2.44c3.64,0,5.3,2.44,5.3,6v7.24h-2.15v-7.24
-			c0-2.52-1.13-3.96-3.49-3.96c-2.41,0-3.88,1.97-3.88,4.33v6.87h-2.15v-18.36h2.1V464.2z"/>
-		<path class="st0" d="M274.1,482.53l-0.05-2.28c-1.02,1.76-2.99,2.6-4.77,2.6c-3.72,0-6.63-2.57-6.63-6.79
-			c0-4.38,2.99-6.77,6.66-6.77c2.05,0,3.8,0.81,4.8,2.65l0.03-2.36h2.1v12.95H274.1z M264.71,476.13c0,2.86,2.1,4.75,4.67,4.75
-			c6.27,0,6.29-9.57,0-9.54C266.81,471.33,264.71,473.09,264.71,476.13z"/>
-		<path class="st0" d="M279.51,469.6h1.97l0.11,2.02c1.15-1.68,2.62-2.33,4.38-2.33c3.23,0,5.51,2.15,5.51,6.06v7.18h-2.18v-7.16
-			c0-2.6-1.26-4.06-3.75-4.06c-2.36,0-3.91,1.97-3.91,4.27v6.95h-2.12V469.6z"/>
-		<path class="st0" d="M305.25,480.85c-1.36,1.39-3.01,1.99-4.8,1.99c-3.7,0-6.77-2.49-6.77-6.79c0-4.3,2.99-6.77,6.77-6.77
-			c1.78,0,3.3,0.6,4.69,1.94l-1.39,1.42c-0.89-0.92-2.1-1.31-3.25-1.31c-2.57,0-4.67,1.78-4.67,4.72c0,3.04,2.12,4.75,4.64,4.75
-			c1.23,0,2.46-0.42,3.38-1.36l1.42,1.44L305.25,480.85z"/>
-		<path class="st0" d="M308.25,464.22c0.68,0,1.44,0.47,1.44,1.42s-0.76,1.36-1.44,1.36c-0.73,0-1.42-0.45-1.42-1.39
-			C306.84,464.7,307.52,464.22,308.25,464.22z M307.15,469.6h2.15v12.93h-2.15V469.6z"/>
-		<path class="st0" d="M312.57,469.6h1.97l0.1,2.02c1.15-1.68,2.62-2.33,4.38-2.33c3.23,0,5.51,2.15,5.51,6.06v7.18h-2.18v-7.16
-			c0-2.6-1.26-4.06-3.75-4.06c-2.36,0-3.91,1.97-3.91,4.27v6.95h-2.12V469.6z"/>
-		<path class="st0" d="M328.92,484.44c0,2.52,2.26,3.59,4.62,3.59c2.23,0,4.56-0.79,4.56-3.07c0-2.1-2.12-2.88-4.54-2.88
-			c-4.06,0-6.84-2.33-6.84-6.4c0-4.27,3.54-6.4,6.84-6.4c1.21,0,2.7,0.31,3.67,1l1.39-1.73l1.55,1.26l-1.49,1.7
-			c1.05,1.15,1.68,2.28,1.68,4.17c0,2.18-1.1,4.43-3.64,5.27c2.54,0.73,3.57,2.1,3.57,3.99c0,3.51-3.33,5.06-6.77,5.06
-			c-3.91,0-6.74-2.07-6.63-5.56H328.92z M333.58,480.22c2.75,0,4.67-1.99,4.67-4.51c0-2.94-2.26-4.46-4.69-4.46
-			c-2.31,0-4.75,1.42-4.75,4.43C328.89,478.67,330.99,480.22,333.58,480.22z"/>
-		<path class="st0" d="M353.33,488.66h-2.36l2.73-6.32l-5.24-12.77h2.47l2.54,6.71l1.44,3.72l1.36-3.7l2.86-6.74h2.36L353.33,488.66
-			z"/>
-		<path class="st0" d="M368.61,469.28c3.93,0,6.77,2.78,6.77,6.79s-2.89,6.77-6.77,6.77c-3.88,0-6.71-2.75-6.71-6.77
-			S364.76,469.28,368.61,469.28z M368.64,471.28c-2.62,0-4.62,1.94-4.62,4.8c0,2.81,1.97,4.75,4.59,4.75c2.67,0,4.62-1.94,4.62-4.75
-			C373.22,473.22,371.23,471.28,368.64,471.28z"/>
-		<path class="st0" d="M387.43,482.53l-0.1-2.07c-1.15,1.68-2.6,2.36-4.41,2.39c-3.3,0-5.35-2.23-5.35-6.03v-7.24h2.15v7.24
-			c0,2.52,1.15,4.04,3.64,4.04c2.39,0,3.88-1.94,3.88-4.33v-6.95h2.18v12.95H387.43z"/>
-		<path class="st0" d="M394.79,471.49c0.94-1.68,2.52-2.2,3.99-2.2c1.13-0.03,2.2,0.45,3.02,1.02l-0.97,1.84
-			c-0.71-0.5-1.34-0.73-2.26-0.73c-2.07,0-3.8,1.52-3.8,3.88v7.24h-2.15V469.6h1.99L394.79,471.49z"/>
-		<path class="st0" d="M412.33,471.88c0.94-1.76,3.2-2.6,5.01-2.6c3.7,0,6.19,2.41,6.19,6.77c0,4.27-2.88,6.77-6.58,6.77
-			c-1.91,0-3.57-0.76-4.62-2.52l-0.1,2.23h-2.02v-18.36h2.12V471.88z M412.46,476.02c0,2.83,1.76,4.75,4.33,4.75
-			c2.52,0,4.56-1.73,4.56-4.72c0-3.2-2.05-4.69-4.56-4.69C414.25,471.36,412.46,473.24,412.46,476.02z"/>
-		<path class="st0" d="M435.63,482.53l-0.11-2.07c-1.15,1.68-2.6,2.36-4.41,2.39c-3.3,0-5.35-2.23-5.35-6.03v-7.24h2.15v7.24
-			c0,2.52,1.15,4.04,3.65,4.04c2.39,0,3.88-1.94,3.88-4.33v-6.95h2.18v12.95H435.63z"/>
-		<path class="st0" d="M449.15,472.46c-1.13-1.02-2.31-1.26-3.62-1.26c-1.81,0-3.23,0.6-3.23,1.89c0,1.36,1.65,1.7,3.25,1.91
-			c2.33,0.29,5.51,0.76,5.43,3.96c-0.08,2.62-2.49,3.88-5.4,3.88c-2.18,0-4.41-0.52-5.85-2.41l1.29-1.44
-			c1.13,1.44,3.02,1.89,4.59,1.89c1.44,0,3.2-0.42,3.28-1.99c0-1.39-1.49-1.86-3.49-2.1c-2.49-0.26-5.16-1-5.16-3.7
-			c0-2.78,2.73-3.8,5.27-3.8c1.94,0,3.51,0.5,4.9,1.73L449.15,472.46z"/>
-		<path class="st0" d="M454.25,464.22c0.68,0,1.44,0.47,1.44,1.42s-0.76,1.36-1.44,1.36c-0.73,0-1.42-0.45-1.42-1.39
-			C452.83,464.7,453.51,464.22,454.25,464.22z M453.15,469.6h2.15v12.93h-2.15V469.6z"/>
-		<path class="st0" d="M458.57,469.6h1.97l0.1,2.02c1.15-1.68,2.62-2.33,4.38-2.33c3.23,0,5.51,2.15,5.51,6.06v7.18h-2.18v-7.16
-			c0-2.6-1.26-4.06-3.75-4.06c-2.36,0-3.91,1.97-3.91,4.27v6.95h-2.12V469.6z"/>
-		<path class="st0" d="M485.18,480.53c-1.36,1.57-3.59,2.31-5.61,2.31c-4.01,0-6.82-2.62-6.82-6.84c0-3.91,2.81-6.71,6.71-6.71
-			c3.96,0,6.97,2.36,6.48,7.5H474.9c0.24,2.52,2.26,4.06,4.72,4.06c1.44,0,3.28-0.55,4.12-1.6l1.47,1.28H485.18z M483.86,475
-			c-0.08-2.49-1.81-3.78-4.35-3.78c-2.26,0-4.2,1.26-4.62,3.78H483.86z"/>
-		<path class="st0" d="M496.49,472.46c-1.13-1.02-2.31-1.26-3.62-1.26c-1.81,0-3.23,0.6-3.23,1.89c0,1.36,1.65,1.7,3.25,1.91
-			c2.33,0.29,5.51,0.76,5.43,3.96c-0.08,2.62-2.49,3.88-5.4,3.88c-2.18,0-4.41-0.52-5.85-2.41l1.29-1.44
-			c1.13,1.44,3.02,1.89,4.59,1.89c1.44,0,3.2-0.42,3.28-1.99c0-1.39-1.49-1.86-3.49-2.1c-2.49-0.26-5.16-1-5.16-3.7
-			c0-2.78,2.73-3.8,5.27-3.8c1.94,0,3.51,0.5,4.9,1.73L496.49,472.46z"/>
-		<path class="st0" d="M509.09,472.46c-1.13-1.02-2.31-1.26-3.62-1.26c-1.81,0-3.23,0.6-3.23,1.89c0,1.36,1.65,1.7,3.25,1.91
-			c2.33,0.29,5.51,0.76,5.43,3.96c-0.08,2.62-2.49,3.88-5.4,3.88c-2.18,0-4.41-0.52-5.85-2.41l1.29-1.44
-			c1.13,1.44,3.02,1.89,4.59,1.89c1.44,0,3.2-0.42,3.28-1.99c0-1.39-1.49-1.86-3.49-2.1c-2.49-0.26-5.16-1-5.16-3.7
-			c0-2.78,2.73-3.8,5.27-3.8c1.94,0,3.51,0.5,4.9,1.73L509.09,472.46z"/>
-	</g>
-</g>
-<g>
-	<path class="st0" d="M231.85,436.59h-11.84l-29.44-71.13h12.75l22.56,57.57l22.66-57.57h12.65L231.85,436.59z"/>
-	<path class="st1" d="M260.37,406.48h27.15v9.41h-27.15V406.48z"/>
-	<path class="st0" d="M327.84,436.59H316l-29.44-71.13h12.75l22.56,57.57l22.66-57.57h12.65L327.84,436.59z"/>
-	<path class="st0" d="M396.94,386.4h10.12v49.88h-9.92l-0.51-8.09c-3.24,6.48-11.13,9.41-17.2,9.41c-14.57,0-25.6-9.31-25.6-26.31
-		c0-16.7,11.53-26,25.8-26c7.18,0,13.86,3.34,17,9.01L396.94,386.4z M364.26,411.3c0,10.22,7.28,16.59,16.19,16.59
-		c21.55,0,21.55-33.09,0-33.09C371.55,394.8,364.26,401.18,364.26,411.3z"/>
-	<path class="st0" d="M429.6,365.56v70.73h-10.42v-66.21L429.6,365.56z"/>
-	<path class="st0" d="M452.15,365.56v70.73h-10.42v-66.21L452.15,365.56z"/>
-	<path class="st0" d="M472.26,415.44c0.91,7.69,7.08,12.55,16.29,12.55c5.16,0,11.33-1.82,14.47-5.36l6.78,6.58
-		c-5.16,5.77-13.76,8.5-21.45,8.5c-16.39,0-26.91-10.42-26.91-26.41c0-15.18,10.62-26,26.21-26c16.09,0,27.02,9.92,25.09,30.15
-		H472.26z M502.72,406.64c-0.71-7.99-6.27-12.04-14.77-12.04c-7.69,0-13.86,4.05-15.48,12.04H502.72z"/>
-	<polygon class="st0" points="525.86,455.44 537.39,455.44 567.13,386.4 555.49,386.4 545.58,410.18 540.21,424.15 535.26,409.98 
-		526.66,386.4 514.51,386.4 534.45,435.58 	"/>
-</g>
-<g>
-	<polygon class="st2" points="91.61,393.37 150.96,356.86 145.44,349.69 37.79,349.69 32.27,356.86 	"/>
-	<polygon class="st0" points="88.11,399.45 28.6,362.84 23.79,373.65 88.11,471.12 	"/>
-	<polygon class="st1" points="154.62,362.84 95.12,399.45 95.12,471.12 159.43,373.65 	"/>
-</g>
+	.st2{fill:#00B398;}</style>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_1" transform="translate(0 1) matrix(1 0 0 1 0 -334)">
+   <g id="svg_2">
+    <path class="st0" d="m230.46,480.53c-1.36,1.57 -3.59,2.31 -5.61,2.31c-4.01,0 -6.82,-2.62 -6.82,-6.84c0,-3.91 2.81,-6.71 6.71,-6.71c3.96,0 6.97,2.36 6.48,7.5l-11.04,0c0.24,2.52 2.26,4.06 4.72,4.06c1.44,0 3.28,-0.55 4.12,-1.6l1.47,1.28l-0.03,0zm-1.31,-5.53c-0.08,-2.49 -1.81,-3.78 -4.35,-3.78c-2.26,0 -4.2,1.26 -4.62,3.78l8.97,0z" id="svg_3"/>
+    <path class="st0" d="m233.6,469.6l1.97,0l0.1,2.02c1.15,-1.68 2.62,-2.33 4.38,-2.33c3.23,0 5.51,2.15 5.51,6.06l0,7.18l-2.18,0l0,-7.16c0,-2.6 -1.26,-4.06 -3.75,-4.06c-2.36,0 -3.91,1.97 -3.91,4.27l0,6.95l-2.12,0l0,-12.93z" id="svg_4"/>
+    <path class="st0" d="m250.77,464.2l0,7.53c1.15,-1.7 2.6,-2.41 4.27,-2.44c3.64,0 5.3,2.44 5.3,6l0,7.24l-2.15,0l0,-7.24c0,-2.52 -1.13,-3.96 -3.49,-3.96c-2.41,0 -3.88,1.97 -3.88,4.33l0,6.87l-2.15,0l0,-18.36l2.1,0l0,0.03z" id="svg_5"/>
+    <path class="st0" d="m274.1,482.53l-0.05,-2.28c-1.02,1.76 -2.99,2.6 -4.77,2.6c-3.72,0 -6.63,-2.57 -6.63,-6.79c0,-4.38 2.99,-6.77 6.66,-6.77c2.05,0 3.8,0.81 4.8,2.65l0.03,-2.36l2.1,0l0,12.95l-2.14,0zm-9.39,-6.4c0,2.86 2.1,4.75 4.67,4.75c6.27,0 6.29,-9.57 0,-9.54c-2.57,-0.01 -4.67,1.75 -4.67,4.79z" id="svg_6"/>
+    <path class="st0" d="m279.51,469.6l1.97,0l0.11,2.02c1.15,-1.68 2.62,-2.33 4.38,-2.33c3.23,0 5.51,2.15 5.51,6.06l0,7.18l-2.18,0l0,-7.16c0,-2.6 -1.26,-4.06 -3.75,-4.06c-2.36,0 -3.91,1.97 -3.91,4.27l0,6.95l-2.12,0l0,-12.93l-0.01,0z" id="svg_7"/>
+    <path class="st0" d="m305.25,480.85c-1.36,1.39 -3.01,1.99 -4.8,1.99c-3.7,0 -6.77,-2.49 -6.77,-6.79c0,-4.3 2.99,-6.77 6.77,-6.77c1.78,0 3.3,0.6 4.69,1.94l-1.39,1.42c-0.89,-0.92 -2.1,-1.31 -3.25,-1.31c-2.57,0 -4.67,1.78 -4.67,4.72c0,3.04 2.12,4.75 4.64,4.75c1.23,0 2.46,-0.42 3.38,-1.36l1.42,1.44l-0.02,-0.03z" id="svg_8"/>
+    <path class="st0" d="m308.25,464.22c0.68,0 1.44,0.47 1.44,1.42s-0.76,1.36 -1.44,1.36c-0.73,0 -1.42,-0.45 -1.42,-1.39c0.01,-0.91 0.69,-1.39 1.42,-1.39zm-1.1,5.38l2.15,0l0,12.93l-2.15,0l0,-12.93z" id="svg_9"/>
+    <path class="st0" d="m312.57,469.6l1.97,0l0.1,2.02c1.15,-1.68 2.62,-2.33 4.38,-2.33c3.23,0 5.51,2.15 5.51,6.06l0,7.18l-2.18,0l0,-7.16c0,-2.6 -1.26,-4.06 -3.75,-4.06c-2.36,0 -3.91,1.97 -3.91,4.27l0,6.95l-2.12,0l0,-12.93z" id="svg_10"/>
+    <path class="st0" d="m328.92,484.44c0,2.52 2.26,3.59 4.62,3.59c2.23,0 4.56,-0.79 4.56,-3.07c0,-2.1 -2.12,-2.88 -4.54,-2.88c-4.06,0 -6.84,-2.33 -6.84,-6.4c0,-4.27 3.54,-6.4 6.84,-6.4c1.21,0 2.7,0.31 3.67,1l1.39,-1.73l1.55,1.26l-1.49,1.7c1.05,1.15 1.68,2.28 1.68,4.17c0,2.18 -1.1,4.43 -3.64,5.27c2.54,0.73 3.57,2.1 3.57,3.99c0,3.51 -3.33,5.06 -6.77,5.06c-3.91,0 -6.74,-2.07 -6.63,-5.56l2.03,0zm4.66,-4.22c2.75,0 4.67,-1.99 4.67,-4.51c0,-2.94 -2.26,-4.46 -4.69,-4.46c-2.31,0 -4.75,1.42 -4.75,4.43c0.08,2.99 2.18,4.54 4.77,4.54z" id="svg_11"/>
+    <path class="st0" d="m353.33,488.66l-2.36,0l2.73,-6.32l-5.24,-12.77l2.47,0l2.54,6.71l1.44,3.72l1.36,-3.7l2.86,-6.74l2.36,0l-8.16,19.1z" id="svg_12"/>
+    <path class="st0" d="m368.61,469.28c3.93,0 6.77,2.78 6.77,6.79s-2.89,6.77 -6.77,6.77c-3.88,0 -6.71,-2.75 -6.71,-6.77s2.86,-6.79 6.71,-6.79zm0.03,2c-2.62,0 -4.62,1.94 -4.62,4.8c0,2.81 1.97,4.75 4.59,4.75c2.67,0 4.62,-1.94 4.62,-4.75c-0.01,-2.86 -2,-4.8 -4.59,-4.8z" id="svg_13"/>
+    <path class="st0" d="m387.43,482.53l-0.1,-2.07c-1.15,1.68 -2.6,2.36 -4.41,2.39c-3.3,0 -5.35,-2.23 -5.35,-6.03l0,-7.24l2.15,0l0,7.24c0,2.52 1.15,4.04 3.64,4.04c2.39,0 3.88,-1.94 3.88,-4.33l0,-6.95l2.18,0l0,12.95l-1.99,0z" id="svg_14"/>
+    <path class="st0" d="m394.79,471.49c0.94,-1.68 2.52,-2.2 3.99,-2.2c1.13,-0.03 2.2,0.45 3.02,1.02l-0.97,1.84c-0.71,-0.5 -1.34,-0.73 -2.26,-0.73c-2.07,0 -3.8,1.52 -3.8,3.88l0,7.24l-2.15,0l0,-12.94l1.99,0l0.18,1.89z" id="svg_15"/>
+    <path class="st0" d="m412.33,471.88c0.94,-1.76 3.2,-2.6 5.01,-2.6c3.7,0 6.19,2.41 6.19,6.77c0,4.27 -2.88,6.77 -6.58,6.77c-1.91,0 -3.57,-0.76 -4.62,-2.52l-0.1,2.23l-2.02,0l0,-18.36l2.12,0l0,7.71zm0.13,4.14c0,2.83 1.76,4.75 4.33,4.75c2.52,0 4.56,-1.73 4.56,-4.72c0,-3.2 -2.05,-4.69 -4.56,-4.69c-2.54,0 -4.33,1.88 -4.33,4.66z" id="svg_16"/>
+    <path class="st0" d="m435.63,482.53l-0.11,-2.07c-1.15,1.68 -2.6,2.36 -4.41,2.39c-3.3,0 -5.35,-2.23 -5.35,-6.03l0,-7.24l2.15,0l0,7.24c0,2.52 1.15,4.04 3.65,4.04c2.39,0 3.88,-1.94 3.88,-4.33l0,-6.95l2.18,0l0,12.95l-1.99,0z" id="svg_17"/>
+    <path class="st0" d="m449.15,472.46c-1.13,-1.02 -2.31,-1.26 -3.62,-1.26c-1.81,0 -3.23,0.6 -3.23,1.89c0,1.36 1.65,1.7 3.25,1.91c2.33,0.29 5.51,0.76 5.43,3.96c-0.08,2.62 -2.49,3.88 -5.4,3.88c-2.18,0 -4.41,-0.52 -5.85,-2.41l1.29,-1.44c1.13,1.44 3.02,1.89 4.59,1.89c1.44,0 3.2,-0.42 3.28,-1.99c0,-1.39 -1.49,-1.86 -3.49,-2.1c-2.49,-0.26 -5.16,-1 -5.16,-3.7c0,-2.78 2.73,-3.8 5.27,-3.8c1.94,0 3.51,0.5 4.9,1.73l-1.26,1.44z" id="svg_18"/>
+    <path class="st0" d="m454.25,464.22c0.68,0 1.44,0.47 1.44,1.42s-0.76,1.36 -1.44,1.36c-0.73,0 -1.42,-0.45 -1.42,-1.39c0,-0.91 0.68,-1.39 1.42,-1.39zm-1.1,5.38l2.15,0l0,12.93l-2.15,0l0,-12.93z" id="svg_19"/>
+    <path class="st0" d="m458.57,469.6l1.97,0l0.1,2.02c1.15,-1.68 2.62,-2.33 4.38,-2.33c3.23,0 5.51,2.15 5.51,6.06l0,7.18l-2.18,0l0,-7.16c0,-2.6 -1.26,-4.06 -3.75,-4.06c-2.36,0 -3.91,1.97 -3.91,4.27l0,6.95l-2.12,0l0,-12.93z" id="svg_20"/>
+    <path class="st0" d="m485.18,480.53c-1.36,1.57 -3.59,2.31 -5.61,2.31c-4.01,0 -6.82,-2.62 -6.82,-6.84c0,-3.91 2.81,-6.71 6.71,-6.71c3.96,0 6.97,2.36 6.48,7.5l-11.04,0c0.24,2.52 2.26,4.06 4.72,4.06c1.44,0 3.28,-0.55 4.12,-1.6l1.47,1.28l-0.03,0zm-1.32,-5.53c-0.08,-2.49 -1.81,-3.78 -4.35,-3.78c-2.26,0 -4.2,1.26 -4.62,3.78l8.97,0z" id="svg_21"/>
+    <path class="st0" d="m496.49,472.46c-1.13,-1.02 -2.31,-1.26 -3.62,-1.26c-1.81,0 -3.23,0.6 -3.23,1.89c0,1.36 1.65,1.7 3.25,1.91c2.33,0.29 5.51,0.76 5.43,3.96c-0.08,2.62 -2.49,3.88 -5.4,3.88c-2.18,0 -4.41,-0.52 -5.85,-2.41l1.29,-1.44c1.13,1.44 3.02,1.89 4.59,1.89c1.44,0 3.2,-0.42 3.28,-1.99c0,-1.39 -1.49,-1.86 -3.49,-2.1c-2.49,-0.26 -5.16,-1 -5.16,-3.7c0,-2.78 2.73,-3.8 5.27,-3.8c1.94,0 3.51,0.5 4.9,1.73l-1.26,1.44z" id="svg_22"/>
+    <path class="st0" d="m509.09,472.46c-1.13,-1.02 -2.31,-1.26 -3.62,-1.26c-1.81,0 -3.23,0.6 -3.23,1.89c0,1.36 1.65,1.7 3.25,1.91c2.33,0.29 5.51,0.76 5.43,3.96c-0.08,2.62 -2.49,3.88 -5.4,3.88c-2.18,0 -4.41,-0.52 -5.85,-2.41l1.29,-1.44c1.13,1.44 3.02,1.89 4.59,1.89c1.44,0 3.2,-0.42 3.28,-1.99c0,-1.39 -1.49,-1.86 -3.49,-2.1c-2.49,-0.26 -5.16,-1 -5.16,-3.7c0,-2.78 2.73,-3.8 5.27,-3.8c1.94,0 3.51,0.5 4.9,1.73l-1.26,1.44z" id="svg_23"/>
+   </g>
+  </g>
+  <g id="svg_24" transform="translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1)">
+   <path class="st0" d="m231.85,436.59l-11.84,0l-29.44,-71.13l12.75,0l22.56,57.57l22.66,-57.57l12.65,0l-29.34,71.13z" id="svg_25"/>
+   <path class="st1" d="m260.37,406.48l27.15,0l0,9.41l-27.15,0l0,-9.41z" id="svg_26"/>
+   <path class="st0" d="m327.84,436.59l-11.84,0l-29.44,-71.13l12.75,0l22.56,57.57l22.66,-57.57l12.65,0l-29.34,71.13z" id="svg_27"/>
+   <path class="st0" d="m396.94,386.4l10.12,0l0,49.88l-9.92,0l-0.51,-8.09c-3.24,6.48 -11.13,9.41 -17.2,9.41c-14.57,0 -25.6,-9.31 -25.6,-26.31c0,-16.7 11.53,-26 25.8,-26c7.18,0 13.86,3.34 17,9.01l0.31,-7.9zm-32.68,24.9c0,10.22 7.28,16.59 16.19,16.59c21.55,0 21.55,-33.09 0,-33.09c-8.9,0 -16.19,6.38 -16.19,16.5z" id="svg_28"/>
+   <path class="st0" d="m429.6,365.56l0,70.73l-10.42,0l0,-66.21l10.42,-4.52z" id="svg_29"/>
+   <path class="st0" d="m452.15,365.56l0,70.73l-10.42,0l0,-66.21l10.42,-4.52z" id="svg_30"/>
+   <path class="st0" d="m472.26,415.44c0.91,7.69 7.08,12.55 16.29,12.55c5.16,0 11.33,-1.82 14.47,-5.36l6.78,6.58c-5.16,5.77 -13.76,8.5 -21.45,8.5c-16.39,0 -26.91,-10.42 -26.91,-26.41c0,-15.18 10.62,-26 26.21,-26c16.09,0 27.02,9.92 25.09,30.15l-40.48,0l0,-0.01zm30.46,-8.8c-0.71,-7.99 -6.27,-12.04 -14.77,-12.04c-7.69,0 -13.86,4.05 -15.48,12.04l30.25,0z" id="svg_31"/>
+   <polygon class="st0" id="svg_32" points="525.86,455.44 537.39,455.44 567.13,386.4 555.49,386.4 545.58,410.18 540.21,424.15 535.26,409.98    526.66,386.4 514.51,386.4 534.45,435.58  "/>
+  </g>
+  <g id="svg_33" transform="translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1) translate(0 -1)">
+   <polygon class="st2" id="svg_34" points="91.61,393.37 150.96,356.86 145.44,349.69 37.79,349.69 32.27,356.86  "/>
+   <polygon class="st0" id="svg_35" points="88.11,399.45 28.6,362.84 23.79,373.65 88.11,471.12  "/>
+   <polygon class="st1" id="svg_36" points="154.62,362.84 95.12,399.45 95.12,471.12 159.43,373.65  "/>
+  </g>
+ </g>
 </svg>
