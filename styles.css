@@ -73,6 +73,7 @@ body > * {
 }
 
 .vvalley-logo svg,
+.vvalley-logo img,
 .microsoft-logo svg {
     color: var(--text);
     fill: var(--text);
