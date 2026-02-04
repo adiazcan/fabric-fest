@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (registerButton) {
         registerButton.addEventListener('click', function(e) {
             e.preventDefault();
-            showNotification('Registration will be available soon! Stay tuned for updates.');
+            window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=Sr_QIymUv06it7s3VKRAJVV0PPYNjf5Lr6obwGoWUs9UM0hHQ0k0Q0xNQVRaNzJBMkNNUUkwQkNZNi4u', '_blank');
         });
     }
 });
